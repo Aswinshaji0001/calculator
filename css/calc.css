@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.cbody{
+    border-radius: 10px;
+    width: 400px;
+    height: 700px;
+    border: 1px solid white;
+}
+.text{
+    text-align: center;
+    margin-top: 10px;
+    padding: 6% 20%;
+    background-color: black;
+    color: white;
+}
+.cbody2{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cb{
+    width: 100%;
+    display: flex;
+  
+    justify-content: space-evenly;
+}
+button{
+    display: block;
+}
+.AC{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    color: green;
+}
