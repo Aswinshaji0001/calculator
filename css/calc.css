@@ -21,10 +21,12 @@
 .text{
     text-align: right;
     margin-top: 10px;
-    padding: 10% 17%;
+    padding: 10% 0%;
     background-color: black;
-    color: white;
-    font-size: 20px;
+    color: black;
+    border-radius: 10px;
+    font-size: 32px;
+    background-color: white;
 }
 .cbody2{
     width: 100%;
@@ -33,7 +35,6 @@
     justify-content: space-evenly;
 }
 .cb{
-    margin-top: 10px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -67,6 +68,8 @@
 }
 button{
     display: block;
+    border: none;
+    font-size: 25px;
 }
 .AC{
     width: 70px;
