@@ -6,45 +6,94 @@
     width: 100%;
     height: 100vh;
     background-color: black;
-    color: white;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .cbody{
     border-radius: 10px;
     width: 400px;
-    height: 700px;
+    height: 600px;
     border: 1px solid white;
 }
 .text{
-    text-align: center;
+    text-align: right;
     margin-top: 10px;
-    padding: 6% 20%;
+    padding: 10% 17%;
     background-color: black;
     color: white;
+    font-size: 20px;
 }
 .cbody2{
     width: 100%;
-    margin-top: 10px;
-    display: flex;
+    margin-top: 50px;
     align-items: center;
     justify-content: space-evenly;
 }
 .cb{
+    margin-top: 10px;
     width: 100%;
     display: flex;
-  
+    justify-content: space-evenly;
+}
+.cb2{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cb3{
+    margin-top: 10px;
+
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cb4{
+    margin-top: 10px;
+
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cb5{
+    margin-top: 10px;
+
+    width: 100%;
+    display: flex;
     justify-content: space-evenly;
 }
 button{
     display: block;
 }
 .AC{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: black;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
     color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px;
+}
+.BC{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: rgb(184, 45, 3);
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px
+}
+.CC{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px
 }
